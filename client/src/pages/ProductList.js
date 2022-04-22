@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { useAppContext } from '../context/AppContext.js'
 // import Header from '../components/Header.js'
 import Footer from '../components/Footer.js'
-import { Link } from 'react-router-dom'
+import Header from '../components/Header.js'
 
 const ProductList = () => {
   const { products, getProducts, deleteProduct, toggleProduct, selectedItems } =
